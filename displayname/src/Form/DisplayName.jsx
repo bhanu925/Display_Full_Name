@@ -20,7 +20,7 @@ export default function DisplayName() {
     <form onSubmit={handleSubmit}>
         <div>
             <label htmlFor="firstName">
-                First Name : 
+                First Name: 
             </label>
             <input required
             type="text" 
@@ -32,7 +32,7 @@ export default function DisplayName() {
         </div>
         <div>
             <label htmlFor="lastName">
-                Last Name :
+                Last Name:
             </label>
             <input required
             type="text"
@@ -44,10 +44,10 @@ export default function DisplayName() {
         </div> 
 
         <button type="submit">
-            submit
+            Submit
         </button>
     </form>
-    {display && <h3>Full Name : {firstName} {lastName} </h3>}   
+    {display && <h3>Full Name: {firstName} {lastName} </h3>}   
     
 </div>)
 }
